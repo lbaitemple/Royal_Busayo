@@ -6,8 +6,6 @@ WEB TRAFFIC BOT 0.0.1
 sojuniter@gmail.com
 H4CK THE PLANET
 https://geonode.com/free-proxy-list/ (proxy list)
-https://www.amazon.com/GEM-SYLVA-Moisturizer-packaging-occasions/dp/B09RTG4BHS
-https://www.amazon.com/GEM-SYLVA-Nourishing-Moisturizer-rejuvenate/dp/B09RTFNXG4
 """
 import urllib2 
 import urllib
