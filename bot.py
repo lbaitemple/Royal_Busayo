@@ -5,7 +5,9 @@ WEB TRAFFIC BOT 0.0.1
 (C) 2017 Sojuniter 
 sojuniter@gmail.com
 H4CK THE PLANET
-
+https://geonode.com/free-proxy-list/ (proxy list)
+https://www.amazon.com/GEM-SYLVA-Moisturizer-packaging-occasions/dp/B09RTG4BHS
+https://www.amazon.com/GEM-SYLVA-Nourishing-Moisturizer-rejuvenate/dp/B09RTFNXG4
 """
 import urllib2 
 import urllib
@@ -68,6 +70,10 @@ def bot(proxy1):
 	opener.addheaders = [('User-agent', random.choice(useragent)),
 						('Referer', random.choice(referer))]
 	urllib2.install_opener(opener)
+	f = urllib2.urlopen(link_invation)
+	w= open("guru100.html","w+")
+	w.write(f.read())
+	w.close()
 	f = urllib2.urlopen(link_invation)
 	if link_invation in f.read():
 	   print "[*] Link Visited ..."
